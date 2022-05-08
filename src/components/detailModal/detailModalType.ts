@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from 'react';
-import SelectedRowKeysType from '@pages/list/selectedRowKeysType';
+import SelectedRowKeysType from '@const/selectedRowKeysType';
 import TablePropsType from '@components/table/tableType';
 
 type DetailModalPropsType = {

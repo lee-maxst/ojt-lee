@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useWishListStore } from '@store/wishList/wishList';
 import { ShoppingCartOutlined, CheckCircleOutlined } from '@ant-design/icons';
 import { message } from 'antd';
-import selectedRowKeysType from '@pages/list/selectedRowKeysType';
+import selectedRowKeysType from '@const/selectedRowKeysType';
 
 type WishListIconButtonProps = {
   selectedRowKeys: selectedRowKeysType;

@@ -1,4 +1,4 @@
-import selectedRowKeysType from '@pages/list/selectedRowKeysType';
+import selectedRowKeysType from '@const/selectedRowKeysType';
 
 type wishListStateType = {
   wishListProductNos: Object;

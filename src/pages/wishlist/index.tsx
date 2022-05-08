@@ -4,7 +4,7 @@ import { useWishListStore } from '@store/wishList/wishList';
 import div from 'next/link';
 import Table from '@components/table';
 import DetailModal from '@components/detailModal';
-import SelectedRowKeysType from '@pages/list/selectedRowKeysType';
+import SelectedRowKeysType from '@const/selectedRowKeysType';
 import WishListIconButton from '@components/wishListIconButton';
 
 const WishList: NextPage = () => {

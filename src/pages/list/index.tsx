@@ -4,7 +4,7 @@ import Table from '@components/table/table';
 import { useQuery } from 'react-query';
 import { getBeerList, getSearchAbvList } from '@pages/api/list/list';
 import DetailModal from '@components/detailModal';
-import SelectedRowKeysType from '@pages/list/selectedRowKeysType';
+import SelectedRowKeysType from '@const/selectedRowKeysType';
 import WishListIconButton from '@components/wishListIconButton';
 import Range from '@components/range/range';
 

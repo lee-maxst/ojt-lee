@@ -1,5 +1,5 @@
 import axios from 'axios';
-import selectedRowKeysType from '@pages/list/selectedRowKeysType';
+import selectedRowKeysType from '@const/selectedRowKeysType';
 import { BASE_URL } from '@const/apiUrl';
 
 const getBeerList = async (page = 1) => {

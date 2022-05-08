@@ -1,6 +1,6 @@
 import create from 'zustand';
 import wishListType from '@store/wishList/wishListType';
-import selectedRowKeysType from '@pages/list/selectedRowKeysType';
+import selectedRowKeysType from '@const/selectedRowKeysType';
 
 const useWishListStore = create<wishListType>((set, get) => ({
   wishListProductNos: {},
